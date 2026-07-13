@@ -1,0 +1,28 @@
+name: ai_studio_clone
+description: AI Studio Clone with Gemini, Groq, DeepSeek
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_gemini: ^2.0.0
+  google_generative_ai: ^0.4.0
+  http: ^1.2.2
+  image_picker: ^1.1.2
+  flutter_markdown: ^0.7.1
+  shared_preferences: ^2.3.0
+  provider: ^6.1.2
+  path_provider: ^2.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
